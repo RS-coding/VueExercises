@@ -5,14 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
 
-    <style>
-        body{
+<style>
+      body{
             background: #1D976C;  /* fallback for old browsers */
             background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -30,23 +28,30 @@
         p{
             font-size:5rem;
         }
-    </style>
-    <!-- CDN Vue.JS-->
-   
-</head>
-<body>
-    <div id="app" class="container">
-        <p>{{title}}</p>
-    </div>
+</style>
 
-    <script>
-        let app = new Vue({
-            el:'#app',
-            data:{
-                title :'Using Vue.js'
-            }
-        })
- 
-    </script>
+
+<body>
+
+        <div id="app" class="container">
+            <p>{{changeMessage()}}</p>
+            
+        </div>
+
+        <script>
+            let app = new Vue({
+                el:'#app',
+                data:{
+                    title:'Usando Vue.js'
+                },
+                methods:{
+                    changeMessage(){
+                        return this.title = 'Vue.JS is really cool'
+                    }
+                }
+            })
+        </script>
+    
+    
 </body>
 </html>
