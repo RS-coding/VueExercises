@@ -48,7 +48,7 @@ _Add script src vue [link](https://vuejs.org/v2/guide/index.html#Getting-Started
 #### **Task:**
 
 - Doing the same thing as exercise number 1
-- add a method changeMessage() in vue instance , get the title propriety and change to 'Vue.JS it is really cool'
+- add a method changeMessage() in vue instance , get the title propriety and change to 'Vue.JS is really cool'
 - interpolate by using the name of the method in the paragraph
 
 #### _Subjects Tips:_
