@@ -4,7 +4,7 @@
 
 Beginner Friendly  
 Some are simple logic exercises others are mini-projects.
-[Demo]()
+[Demo](https://rs-coding.github.io/VueExercises/)
 
 Let's Go!
 
@@ -28,7 +28,7 @@ Let's Go!
 
 - In an html file add the script source of Vue.js inside <script src=""> tag
 - Inside Body tag you will create your first app by adding a div with id called app
-- Inside the div tag create a paragraph <p> that will be interpolated by Vue.js
+- Inside the div tag create a paragraph that will be interpolated by Vue.js
 - Create your first Vue new instance inside the <script> tags before </body>.
 - Inside the  new Vue Instance ,has you may know, you have to add the el and data properties.
 - Inside data, create a property called title with the value ' Using Vue JS'
@@ -37,8 +37,24 @@ Let's Go!
 
 #### _Subjects Tips:_
 
-_Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_
+_Add script src vue [link](https://vuejs.org/v2/guide/index.html#Getting-Started)_, _Declare and rending [link](https://vuejs.org/v2/guide/index.html#Declarative-Rendering)_,
 
-**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/6220a12a42a17b04c36106675baf61ab9ee2acff/solutions/01exercise.html)
+**Resolution:** [Code](https://github.com/RS-coding/VueExercises/blob/main/solutions_exercises/01exercise.html)
 
 ---
+
+### 02 - Exercise
+
+#### **Task:**
+
+- Doing the same thing as exercise number 1
+- add a method changeMessage() in vue instance , get the title propriety and change to 'Vue.JS is really cool'
+- interpolate by using the name of the method in the paragraph
+
+#### _Subjects Tips:_
+
+_Data and Methods[link](https://vuejs.org/v2/guide/instance.html#Data-and-Methods)_
+
+**Resolution:** [Code](https://github.com/RS-coding/VueExercises/blob/main/solutions_exercises/02exercise.html)
+
+
