@@ -42,3 +42,19 @@ _Add script src vue [link](https://vuejs.org/v2/guide/index.html#Getting-Started
 **Resolution:** [Code](https://github.com/RS-coding/VueExercises/blob/main/solutions_exercises/01exercise.html)
 
 ---
+
+### 02 - Exercise
+
+#### **Task:**
+
+- Doing the same thing as exercise number 1
+- add a method changeMessage() in vue instance , get the title propriety and change to 'Vue.JS it is really cool'
+- interpolate by using the name of the method in the paragraph
+
+#### _Subjects Tips:_
+
+_Data and Methods[link](https://vuejs.org/v2/guide/instance.html#Data-and-Methods)_
+
+**Resolution:** [Code](https://github.com/RS-coding/VueExercises/blob/main/solutions_exercises/02exercise.html)
+
+
