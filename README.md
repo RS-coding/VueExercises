@@ -56,5 +56,21 @@ _Add script src vue [link](https://vuejs.org/v2/guide/index.html#Getting-Started
 _Data and Methods[link](https://vuejs.org/v2/guide/instance.html#Data-and-Methods)_
 
 **Resolution:** [Code](https://github.com/RS-coding/VueExercises/blob/main/solutions_exercises/02exercise.html)
+  
+  ---
+
+### 03 - Exercise
+
+#### **Task:**
+
+- create a link tag '<a>' inside the the div '#app'
+- in the vue instace create a property called link with the value 'https://vuejs.org/v2/guide/syntax.html#Attributes'
+- bind that value inside the link tag '<a>' using the attribute v-bind 
+
+#### _Subjects Tips:_
+
+_v-bind Attribute[link](https://vuejs.org/v2/guide/syntax.html#Attributes)_
+
+**Resolution:** [Code](https://github.com/RS-coding/VueExercises/blob/main/solutions_exercises/03exercise.html)
 
 
