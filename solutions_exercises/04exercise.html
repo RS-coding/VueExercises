@@ -8,6 +8,35 @@
 
      <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 </head>
+
+<style>
+    *,
+    *::before,
+    *::after{
+        margin:0;
+        padding:0;
+    }
+
+    body{
+        background: #6190E8;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        width:100%;
+        min-height:100vh;
+
+        display:flex;
+        justify-content:center;
+        align-items: center;
+
+    }
+
+    p{
+        font-size:4rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align:center;
+    }
+</style>
 <body>
     <div id="app">
         <p v-once>{{title}}</p>
