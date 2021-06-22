@@ -8,15 +8,16 @@ Some are simple logic exercises others are mini-projects.
 
 Let's Go!
 
+#### Note:
+
 #### whoever wants to practice and contribute with new solutions:
 
-- click on **fork** button
+- go to the **dev** branch and fork that branch by clicking on **fork** button
 - copy the **url** of the document
 - at your terminal write **git clone <url>** to download and work locally
 - do the exercises in your code editor
-- save the files exactly has they are with the same titles as mine
-- using the commands **git add .** and **git commit -m "text"**
-- after saving to your local repository do a **git push origin main** to your github repository(forked file based on mine)
+- save the files exactly has they are with the same titles as mine using the commands **git add .** and **git commit -m "text"**
+- after saving to your local repository do a **git push origin dev** to your github repository(forked file based on mine)
 - go to my original project and make a **"pull request"**
 - don't forget to write the necessary comments about what you did differently from what I did and what you think would be better.
 
