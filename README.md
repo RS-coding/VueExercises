@@ -73,6 +73,8 @@ _v-bind Attribute [link](https://vuejs.org/v2/guide/syntax.html#Attributes)_
 
 **Resolution:** [Code](https://github.com/RS-coding/VueExercises/blob/main/solutions_exercises/03exercise.html)
 
+---
+
 ### 04 - Exercise
 
 #### **Task:**
@@ -82,6 +84,22 @@ _v-bind Attribute [link](https://vuejs.org/v2/guide/syntax.html#Attributes)_
   -In first paragraph interpolate the title and in the second paragraph interpolate the methid greeting() using double moustache syntax (double curly braces)
 - you may notice that when there is a changing in some value at vue instance, it is automaticaly updated so both paragraphs have the same result.
 - Add in the first paragraph a directive that allows to show the previous value of title property before it was changed by the metthod grreting(). can you remember which is ?
+
+#### _Subjects Tips:_
+
+_Directives [link](https://vuejs.org/v2/guide/syntax.html#Directives)_
+
+**Resolution:** [Code](https://github.com/RS-coding/VueExercises/blob/main/solutions_exercises/04exercise.html)
+
+---
+
+### 05 - Exercise
+
+#### **Task:**
+
+- Create a div #app with 1 paragraph
+- add in that paragraph a directive that prints pure HTML .For example a tag <a href="https://vuejs.org/">Vue Documentation</a> that is the value of a proprety in Vue instance.
+- You may notice the result by inspect the elements and see that was added a tag a inside the paragraph
 
 #### _Subjects Tips:_
 
